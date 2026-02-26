@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ebSixOne - Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Intro Overlay (plays once on load) -->
+    <div
+      class="intro-overlay"
+      id="introOverlay"
+      aria-hidden="false"
+      aria-label="Intro animation"
+    >
+      <video
+        class="intro-video"
+        id="introVideo"
+        src="assets/video/intro.mp4"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+    </div>
+
+    <!-- Top Nav -->
+    <header class="site-header" id="top">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">
+            <img
+              class="brand-logo"
+              id="brandLogo"
+              src="assets/image/logo.png"
+              alt=""
+              aria-hidden="true"
+            />
+          </span>
+          
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+          <a class="active" href="#home">HOME</a>
+          <a href="#services">SERVICES</a>
+          <a href="#methods">METHODS</a>
+          <a href="#gallery">GALLERY</a>
+          <a href="#faq">FAQ</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section class="hero" id="home" aria-label="Hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <!-- Side Sponsor Rails (Hero only) -->
+<aside class="hero-rail hero-rail--left" aria-label="Sponsors left">
+  <div class="hero-rail__track">
+    <div class="hero-rail__group">
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+    </div>
+    <!-- Duplicate group for seamless loop -->
+    <div class="hero-rail__group" aria-hidden="true">
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+    </div>
+  </div>
+</aside>
+
+<aside class="hero-rail hero-rail--right" aria-label="Sponsors right">
+  <div class="hero-rail__track hero-rail__track--reverse">
+    <div class="hero-rail__group">
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+    </div>
+    <!-- Duplicate group for seamless loop -->
+    <div class="hero-rail__group" aria-hidden="true">
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+    </div>
+  </div>
+</aside>
+        <div class="container hero-grid hero-grid--small-video">
+          <div class="hero-left hero-left--video">
+            <div class="hero-video-wrap">
+              <video
+                class="hero-video hero-video--small"
+                id="heroVideo"
+                src="assets/video/hero-loop-blue-version.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+              ></video>
+            </div>
+          </div>
+
+          <div class="hero-right hero-right--content"></div>
+        </div>
+      </section>
+
+      <!-- Section: Cards -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>LOREM IPSUM</h2>
+            <div class="title-underline"></div>
+          </div>
+
+          <div class="card-grid">
+            <article class="info-card">
+              <div class="icon-box" aria-hidden="true"></div>
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie enim
+                ligula, vitae tempus ante semper sit amet.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon-box" aria-hidden="true"></div>
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie enim
+                ligula, vitae tempus ante semper sit amet.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon-box" aria-hidden="true"></div>
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie enim
+                ligula, vitae tempus ante semper sit amet.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Gallery boxes -->
+      <section class="section section-tight" id="methods">
+        <div class="container">
+          <div class="section-title section-title-small">
+            <h2>LOREM IPSUM</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
+          <div class="box-grid">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Big box -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-title">
+            <h2>LOREM IPSUM</h2>
+            <div class="title-underline"></div>
+          </div>
+
+          <div class="big-box" role="img" aria-label="Feature placeholder"></div>
+        </div>
+      </section>
+
+      <!-- Section: Text columns -->
+      <section class="section" id="about">
+        <div class="container two-col">
+          <div>
+            <h3 class="left-heading">LOREM IPSUM</h3>
+            <p class="muted">
+              Lorem Ipsum dolor sit, amet, consectetur adipisicing elit. Quisque molestie enim
+              ligula
+            </p>
+          </div>
+
+          <div class="right-lines">
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" id="contact">
+        <div class="container footer-grid">
+          <div class="footer-col">
+            <a class="brand footer-brand" href="#top">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-name">ebSixOne</span>
+            </a>
+            <p class="footer-muted">
+              Lorem Ipsum dolor sit, amet, consectetur adipiscing elit. Quisque molestie enim
+              ligula.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#services">Services</a>
+              <a href="#methods">Methods</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#faq">FAQ</a>
+              <a href="#contact">Contact</a>
+              <a href="#booklet">Booklet</a>
+              <a href="#privacy">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="footer-contact">
+              <div>
+                <div class="label">Email</div>
+                <div class="value">sample@business.com</div>
+              </div>
+              <div>
+                <div class="label">Phone</div>
+                <div class="value">1234567890</div>
+              </div>
+              <div>
+                <div class="label">Location</div>
+                <div class="value">Philippines</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">© 2026 Business Consulting. All rights reserved.</div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
